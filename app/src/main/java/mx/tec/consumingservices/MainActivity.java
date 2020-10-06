@@ -146,9 +146,9 @@ public class MainActivity extends Activity {
         String baseURL = "http://api.openweathermap.org/data/2.5/weather?";
         String responseMode ="&mode=xml";
         String units = "&units=metric";
-        String apiKey="&APPID=";
+        String apiKey="&APPID=4c78187e01acea981d9603c3e9d16429";
         apiURL = baseURL + responseMode + units + apiKey;
-
+  //http://api.openweathermap.org/data/2.5/weather?&mode=xml&units=metric&APPID=5235c2cf5b77cc7470384bb7d6c09a35
         EditText city = findViewById(R.id.city);
         String cityTxt = city.getText().toString();
 
